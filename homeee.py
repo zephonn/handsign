@@ -30,7 +30,7 @@ if selected_index=='Home':
         "<div style='background-color: #333333;border: 3px solid #219C90; border-radius:100px;'><h1 style='text-align:center;color:white;'>Test Model</h1></div",
         unsafe_allow_html=True)
     st.header(' ')
-    st.image(dea,use_column_width=True)
+    st.image('dea.png',use_column_width=True)
     st.write(' ')
     st.write(' ')
     st.header('About')
