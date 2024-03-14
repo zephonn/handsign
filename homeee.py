@@ -32,7 +32,7 @@ if selected_index=='Home':
         unsafe_allow_html=True)
     st.header(' ')
     he=Path('deafimage.jpg')
-    st.image(ha,use_column_width=True)
+    st.image(he,use_column_width=True)
     st.write(' ')
     st.write(' ')
     st.header('About')
