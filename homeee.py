@@ -55,80 +55,81 @@ if selected_index=='Test Model':
 
     o = None
     raa = st.selectbox(label='select any file from my testing folder', options=g, index=None)
-    if raa == 'S':
-        o = Image.open('s.jpg')
-    elif raa == 'A':
-        o = Image.open('a.jpg')
-    elif raa == 'B':
-        o = Image.open('b.jpg')
-    elif raa == 'C':
-        o = Image.open('c.jpg')
-    elif raa == 'D':
-        o = Image.open('d.jpg')
-    elif raa == 'E':
-        o = Image.open('e.jpg')
-    elif raa == 'F':
-        o = Image.open('f.jpg')
-    elif raa == 'G':
-        o = Image.open('g.jpg')
-    elif raa == 'H':
-        o = Image.open('h.jpg')
-    elif raa == 'I':
-        o = Image.open('i.jpg')
-    elif raa == 'j':
-        o = Image.open('j.jpg')
-    elif raa == 'K':
-        o = Image.open('k.jpg')
-    elif raa == 'L':
-        o = Image.open('l.jpg')
-    elif raa == 'M':
-        o = Image.open('m.jpg')
-    elif raa == 'N':
-        o = Image.open('n.jpg')
-    elif raa == 'O':
-        o = Image.open('o.jpg')
-    elif raa == 'P':
-        o = Image.open('p.jpg')
-    elif raa == 'Q':
-        o = Image.open('q.jpg')
-    elif raa == 'R':
-        o = Image.open('r.jpg')
-    elif raa == 'T':
-        o = Image.open('t.jpg')
-    elif raa == 'U':
-        o = Image.open('u.jpg')
-    elif raa == 'V':
-        o = Image.open('v.jpg')
-    elif raa == 'W':
-        o = Image.open('w.jpg')
-    elif raa == 'x':
-        o = Image.open('x.jpg')
-    elif raa == 'Y':
-        o = Image.open('y.jpg')
-    elif raa == 'Z':
-        o = Image.open('z.jpg')
-    elif raa == '0':
-        o = Image.open('0.jpg')
-    elif raa == '1':
-        o = Image.open('1 1.jpg')
-    elif raa == '_':
-        o = Image.open('space.jpg')
-    elif raa == '2':
-        o = Image.open('2.jpg')
-    elif raa == '3':
-        o = Image.open('3.jpg')
-    elif raa == '4':
-        o = Image.open('4.jpg')
-    elif raa == '5':
-        o = Image.open('5.jpg')
-    elif raa == '6':
-        o = Image.open('6.jpg')
-    elif raa == '7':
-        o = Image.open('7.jpg')
-    elif raa == '8':
-        o = Image.open('8.jpg')
-    elif raa == '9':
-        o = Image.open('9.jpg')
+    if raa is not None:
+        if raa == 'S':
+            o = Image.open('s.jpg')
+        elif raa == 'A':
+            o = Image.open('a.jpg')
+        elif raa == 'B':
+            o = Image.open('b.jpg')
+        elif raa == 'C':
+            o = Image.open('c.jpg')
+        elif raa == 'D':
+            o = Image.open('d.jpg')
+        elif raa == 'E':
+            o = Image.open('e.jpg')
+        elif raa == 'F':
+            o = Image.open('f.jpg')
+        elif raa == 'G':
+            o = Image.open('g.jpg')
+        elif raa == 'H':
+            o = Image.open('h.jpg')
+        elif raa == 'I':
+            o = Image.open('i.jpg')
+        elif raa == 'j':
+            o = Image.open('j.jpg')
+        elif raa == 'K':
+            o = Image.open('k.jpg')
+        elif raa == 'L':
+            o = Image.open('l.jpg')
+        elif raa == 'M':
+            o = Image.open('m.jpg')
+        elif raa == 'N':
+            o = Image.open('n.jpg')
+        elif raa == 'O':
+            o = Image.open('o.jpg')
+        elif raa == 'P':
+            o = Image.open('p.jpg')
+        elif raa == 'Q':
+            o = Image.open('q.jpg')
+        elif raa == 'R':
+            o = Image.open('r.jpg')
+        elif raa == 'T':
+            o = Image.open('t.jpg')
+        elif raa == 'U':
+            o = Image.open('u.jpg')
+        elif raa == 'V':
+            o = Image.open('v.jpg')
+        elif raa == 'W':
+            o = Image.open('w.jpg')
+        elif raa == 'x':
+            o = Image.open('x.jpg')
+        elif raa == 'Y':
+            o = Image.open('y.jpg')
+        elif raa == 'Z':
+            o = Image.open('z.jpg')
+        elif raa == '0':
+            o = Image.open('0.jpg')
+        elif raa == '1':
+            o = Image.open('1 1.jpg')
+        elif raa == '_':
+            o = Image.open('space.jpg')
+        elif raa == '2':
+            o = Image.open('2.jpg')
+        elif raa == '3':
+            o = Image.open('3.jpg')
+        elif raa == '4':
+            o = Image.open('4.jpg')
+        elif raa == '5':
+            o = Image.open('5.jpg')
+        elif raa == '6':
+            o = Image.open('6.jpg')
+        elif raa == '7':
+            o = Image.open('7.jpg')
+        elif raa == '8':
+            o = Image.open('8.jpg')
+        elif raa == '9':
+            o = Image.open('9.jpg')
 
     ff = ['B', 'U', '9', 'W', 'E', 'T', '4', 'S', 'R', 'K', '1', 'D', 'Y', 'F', 'V', '_', 'M', '7', 'A', '8',
           'C', 'N', 'P', '2', 'X', 'L', '0', 'H', 'I', '5', 'G', 'Z', '3', 'J', 'O', '6', 'Q']
