@@ -152,9 +152,9 @@ if selected_index=='Test Model':
         va = str(g[ar])
         if va == raa:
             st.snow()
-            st.success('ACCURATE', icon='🎯')
+            st.success('ACCURATE🎯')
         else:
-            st.error('INACCURATE', icon='❌')
+            st.error('INACCURATE❌')
         st.header(va)
         st.subheader(
             '-The model predicted the handsign captured will be %s with a chance of %d percentage' % (va, l))
