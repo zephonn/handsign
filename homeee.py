@@ -130,6 +130,8 @@ if selected_index=='Test Model':
             o = Image.open('8.jpg')
         elif raa == '9':
             o = Image.open('9.jpg')
+    elif raa is None:
+        st.write('The model is trained with perfect white background.So try to chose like that.')
 
     ff = ['B', 'U', '9', 'W', 'E', 'T', '4', 'S', 'R', 'K', '1', 'D', 'Y', 'F', 'V', '_', 'M', '7', 'A', '8',
           'C', 'N', 'P', '2', 'X', 'L', '0', 'H', 'I', '5', 'G', 'Z', '3', 'J', 'O', '6', 'Q']
