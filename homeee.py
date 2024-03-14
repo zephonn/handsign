@@ -49,7 +49,7 @@ if selected_index=='Test Model':
         '-we build a convolutional neural network and add a classifier on top of it, to recognize gesture handsigns.Convolutional neural networks are very powerful in image classification and recognition tasks. CNN models learn features of the training images.')
     st.header('preview image and label')
     model = load_model('model2.h5')
-    g = ['9', 'R', 'B', 'S', '1', 'D', 'C', '4', 'O', 'W', 'V', 'Z', 'N', '6', '0', '8', 'Y', '7', 'U', 'M', 'Q', 'X',
+    g = ['select','9', 'R', 'B', 'S', '1', 'D', 'C', '4', 'O', 'W', 'V', 'Z', 'N', '6', '0', '8', 'Y', '7', 'U', 'M', 'Q', 'X',
          '5', '_', 'T', 'F', 'E', 'G', 'I', 'K', '3', 'L', 'J', 'A', '2', 'P', 'H']
     yy = sorted(g)
 
