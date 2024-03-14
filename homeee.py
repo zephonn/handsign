@@ -197,11 +197,12 @@ if selected_index=='Test by Yourself':
     tt = sorted(ff)
     num = st.selectbox(label='-select any letter to see how the hand sign look like', options=['letters', 'numbers'],
                        index=None)
-    if num == 'letters':
-        st.image('letter.jpg')
-    if num == 'numbers':
-        st.image('number.jpg')
-    st.subheader('Test by Your Own')
+    if num is not None:
+        if num == 'letters':
+            st.image('letter.jpg')
+        else num == 'numbers':
+            st.image('number.jpg')
+        st.subheader('Test by Your Own')
     t = st.toggle('proceed')
     cam = None
 
