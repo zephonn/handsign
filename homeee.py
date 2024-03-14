@@ -200,7 +200,7 @@ if selected_index=='Test by Yourself':
     if num is not None:
         if num == 'letters':
             st.image('letter.jpg')
-        else num == 'numbers':
+        elif num == 'numbers':
             st.image('number.jpg')
         st.subheader('Test by Your Own')
     t = st.toggle('proceed')
