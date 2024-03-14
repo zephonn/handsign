@@ -16,7 +16,6 @@ import joblib
 import keras
 from sklearn.metrics import classification_report
 from sklearn.preprocessing import LabelEncoder
-from pathlib import Path
 
 st.set_page_config(page_title='handsign',)
 selected_index = option_menu(
@@ -31,8 +30,7 @@ if selected_index=='Home':
         "<div style='background-color: #333333;border: 3px solid #219C90; border-radius:100px;'><h1 style='text-align:center;color:white;'>Test Model</h1></div",
         unsafe_allow_html=True)
     st.header(' ')
-    he=Path('deafimage.jpg')
-    st.image(he,use_column_width=True)
+    st.image('deafimage.jpg',use_column_width=True)
     st.write(' ')
     st.write(' ')
     st.header('About')
