@@ -182,9 +182,9 @@ if selected_index=='Test Model':
 
         if qq == va:
             st.snow()
-            st.success('ACCURATE', icon='🎯')
+            st.success('ACCURATE🎯')
         else:
-            st.error('INACCURATE', icon='❌')
+            st.error('INACCURATE❌')
 if selected_index=='Test by Yourself':
     st.markdown(
         "<div style='background-color: #333333;border: 3px solid #219C90; border-radius:100px;'><h1 style='text-align:center;color:white;'>Talking Hand</h1></div",
@@ -196,14 +196,13 @@ if selected_index=='Test by Yourself':
     ff = ['B', 'U', '9', 'W', 'E', 'T', '4', 'S', 'R', 'K', '1', 'D', 'Y', 'F', 'V', '_', 'M', '7', 'A', '8',
           'C', 'N', 'P', '2', 'X', 'L', '0', 'H', 'I', '5', 'G', 'Z', '3', 'J', 'O', '6', 'Q']
     tt = sorted(ff)
-    num = st.selectbox(label='-select any letter to see how the hand sign look like', options=['letters', 'numbers'],
-                       index=None)
-    if num is not None:
-        if num == 'letters':
-            st.image('letter.jpg')
-        elif num == 'numbers':
-            st.image('number.jpg')
-        st.subheader('Test by Your Own')
+    num = st.selectbox(label='-select any letter to see how the hand sign look like', options=['select','letters', 'numbers'])
+    
+    if num == 'letters':
+        st.image('letter.jpg')
+    elif num == 'numbers':
+        st.image('number.jpg')
+    st.subheader('Test by Your Own')
     t = st.toggle('proceed')
     cam = None
 
