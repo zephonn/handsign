@@ -3,3 +3,4 @@ pycaret
 streamlit==1.11.1
 streamlit_option_menu==0.3.2
 tensorflow==2.13.1
+scikit_image
