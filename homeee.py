@@ -203,7 +203,7 @@ if selected_index=='Test by Yourself':
     elif num == 'numbers':
         st.image('number.jpg')
     st.subheader('Test by Your Own')
-    t = st.toggle('proceed')
+    t = st.checkbox('proceed')
     cam = None
 
     if t:
