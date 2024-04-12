@@ -180,11 +180,11 @@ if selected_index=='Test Model':
         st.header(va)
         st.subheader('-The model predicted the handsign imported will be %s with a chance of %d percentage' % (va, l))
 
-        if qq == va:
-            st.snow()
-            st.success('ACCURATE🎯')
-        else:
-            st.error('INACCURATE❌')
+        # if qq == va:
+        #     st.snow()
+        #     st.success('ACCURATE🎯')
+        # else:
+        #     st.error('INACCURATE❌')
 if selected_index=='Test by Yourself':
     st.markdown(
         "<div style='background-color: #333333;border: 3px solid #219C90; border-radius:100px;'><h1 style='text-align:center;color:white;'>Talking Hand</h1></div",
